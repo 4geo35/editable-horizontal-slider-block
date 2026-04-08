@@ -1,0 +1,27 @@
+{
+    "name": "4geo35/editable-horizontal-slider-block",
+    "description": "Add horizontal image slider type",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir",
+            "email": "aweram-team@yandex.ru"
+        }
+    ],
+    "require": {
+        "4geo35/editable-blocks": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "GIS\\EditableHorizontalSliderBlock\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GIS\\EditableHorizontalSliderBlock\\EditableHorizontalSliderBlockServiceProvider"
+            ]
+        }
+    }
+}
