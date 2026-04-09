@@ -13,5 +13,8 @@ return [
     "customSlidesComponent" => null,
 
     // Templates
-    "templates" => [],
+    "templates" => [
+        "horizontal-slider-item" => \GIS\EditableHorizontalSliderBlock\Templates\HorizontalSliderItem::class,
+        "mobile-horizontal-slider-item" => \GIS\EditableHorizontalSliderBlock\Templates\MobileHorizontalSliderItem::class,
+    ],
 ];
