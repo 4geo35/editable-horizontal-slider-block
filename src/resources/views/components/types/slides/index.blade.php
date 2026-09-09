@@ -23,5 +23,7 @@
             @endforeach
         </div>
     </div>
-    @include("ehsb::web.types.slides.includes.swiper-script")
+    @if ($block->items->count() > 1)
+        @include("ehsb::web.types.slides.includes.swiper-script")
+    @endif
 @endif
